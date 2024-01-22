@@ -1,0 +1,10 @@
+name: Install Node + SD + Transforms
+
+
+    steps:
+     
+    
+    - name: Install Node Dependencies
+      run: npm install -g style-dictionary
+    - name: Transforms
+      run: npm install @tokens-studio/sd-transforms
